@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="#807A7A"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_marginRight="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="#E10A0A">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="RED">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="#0C5C3C">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Green">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_marginRight="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="#00BCD4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="BLUE">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="#EA94AF">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="PINK">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_marginRight="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="#FFDD00">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="YELLOW">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="#000000">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="BLACK"
+                android:textColor="@color/white">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_marginRight="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="#FF5722">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="ORANGE">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="#ECFFF8">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="WHITE">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
